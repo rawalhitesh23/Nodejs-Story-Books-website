@@ -1,0 +1,36 @@
+{
+  "name": "story-book-nodejs",
+  "version": "1.0.0",
+  "description": "App to create public and private stories",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app",
+    "dev": "cross-env NODE_ENV=development nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rawalhitesh23/Nodejs-Story-Books-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rawalhitesh23/Nodejs-Story-Books-website/issues"
+  },
+  "homepage": "https://github.com/rawalhitesh23/Nodejs-Story-Books-website#readme",
+  "dependencies": {
+    "connect-mongo": "^3.2.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "express-session": "^1.17.1",
+    "hbs": "^4.1.1",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.0.10",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
